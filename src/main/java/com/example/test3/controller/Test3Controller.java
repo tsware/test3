@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test3Controller {
         @GetMapping("/test3")
         public String test() {
-            return "Hello World Auto Build Test";
+            return "Hello World Auto Build Test and Deploy Test!!!!!!!!!";
         }
 }
